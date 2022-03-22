@@ -15,7 +15,7 @@ $(document).keypress(function () {
   }
 });
 
-$(".start-button").click(function () {
+$("#startb").click(function () {
   if (!started) {
     $("#level-title").text("Level " + level);
     nextSequence();
